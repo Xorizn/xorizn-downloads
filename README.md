@@ -7,6 +7,7 @@
 ![xorizn-downloads](https://socialify.git.ci/xorizn/xorizn-downloads/image?description=1&forks=1&issues=1&logo=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F26%2F91%2Ff2%2F2691f2fa1a0f078f5f274edf7fea6763.png&owner=1&pulls=1&stargazers=1&theme=Light)
 
 </div>
+
 ## List Routes Berita Indo API
 - `/` : Nothing
 - `api/downloads/instagram`
