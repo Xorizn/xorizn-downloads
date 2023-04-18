@@ -53,4 +53,7 @@ In my case, i'm using pnpm for package manager, you can adjust with your favorit
 npm install
 ```
 
-ed by Express and vercel. Code licensed under [MIT License](https://raw.githubusercontent.com/Xorizn/xorizn-downloads/master/LICENSE).
+# MAKASIH LORT
+* [`Satya Wikananda`](https://github.com/satyawikananda)
+
+ed by Express and vercel. Code licensed under [MIT License](https://raw.githubusercontent.com/Xorizn/xorizn-downloads/master/LICENSE)
