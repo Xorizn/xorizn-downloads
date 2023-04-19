@@ -8,6 +8,11 @@
 
 </div>
 
+## Other Scraper
+
+- [SEARCH-API](https://github.com/Xorizn/xorizn-search)
+- [ALL-API](https://github.com/Xorizn/xorizn-apis)
+
 ## List Routes Berita Indo API
 - `/` : Nothing
 - `api/downloads/instagram`
