@@ -13,7 +13,7 @@
 - [SEARCH-API](https://github.com/Xorizn/xorizn-search)
 - [ALL-API](https://github.com/Xorizn/xorizn-apis)
 
-## List Routes Berita Indo API
+## List Routes Download Api's
 - `/` : Nothing
 - `api/downloads/instagram`
 - `api/downloads/facebook`
