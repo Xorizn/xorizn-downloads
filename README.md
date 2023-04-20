@@ -60,5 +60,6 @@ npm install
 
 # MAKASIH LORT
 * [`Satya Wikananda`](https://github.com/satyawikananda)
+* [`BochilTeam`](https://github.com/BochilTeam/scraper)
 
 ed by Express and vercel. Code licensed under [MIT License](https://raw.githubusercontent.com/Xorizn/xorizn-downloads/master/LICENSE)
