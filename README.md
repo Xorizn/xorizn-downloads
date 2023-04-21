@@ -30,15 +30,15 @@
 
 | Get json                    | query     | Method | Example  |
 | :-----------------------    | :-------  | :--    | :--      |
-| `api/downloads/instagram`   | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/instagram?url=https://www.instagram.com/p/CrGNt2KIfiM/) |
-| `api/downloads/facebook`    | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/facebook?url=https://www.facebook.com/reel/947495549897838) |
-| `api/downloads/mediafire`   | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/mediafire?url=https://www.mediafire.com/file/s9co8o5n5ftch9q/RULLMDV5.7z/file) |
-| `api/downloads/musicaldown` | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/musicaldown?url=https://vt.tiktok.com/ZS87GQLkR/) |
-| `api/downloads/tiktok`      | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/tiktok?url=https://vt.tiktok.com/ZS87GQLkR/) |
-| `api/downloads/pinterest`   | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/pinterest?url=https://id.pinterest.com/pin/602356518925573319/) |
-| `api/downloads/soundcloud`  | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/soundcloud?url=https://soundcloud.com/eugenia-birgitta-marsha/nadin-amizah-bertaut) |
-| `api/downloads/twitter`     | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/twitter?url=https://twitter.com/MemeComicIndo/status/1532598433768300544?s=20) |
-| `api/downloads/youtube`     | `url`     | GET    | [EXAMPLE](https://xorizn-downloads.vercel.app/api/downloads/youtube?url=https://www.youtube.com/watch?v=TGlgD1O_y8U) |
+| `api/downloads/instagram`   | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/instagram?url=https://www.instagram.com/p/CrGNt2KIfiM/) |
+| `api/downloads/facebook`    | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/facebook?url=https://www.facebook.com/reel/947495549897838) |
+| `api/downloads/mediafire`   | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/mediafire?url=https://www.mediafire.com/file/s9co8o5n5ftch9q/RULLMDV5.7z/file) |
+| `api/downloads/musicaldown` | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/musicaldown?url=https://vt.tiktok.com/ZS87GQLkR/) |
+| `api/downloads/tiktok`      | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/tiktok?url=https://vt.tiktok.com/ZS87GQLkR/) |
+| `api/downloads/pinterest`   | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/pinterest?url=https://id.pinterest.com/pin/602356518925573319/) |
+| `api/downloads/soundcloud`  | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/soundcloud?url=https://soundcloud.com/eugenia-birgitta-marsha/nadin-amizah-bertaut) |
+| `api/downloads/twitter`     | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/twitter?url=https://twitter.com/MemeComicIndo/status/1532598433768300544?s=20) |
+| `api/downloads/youtube`     | `url`     | GET    | [`=>`](https://xorizn-downloads.vercel.app/api/downloads/youtube?url=https://www.youtube.com/watch?v=TGlgD1O_y8U) |
 ## Installation
 
 If you want to add this project in your own machine, you can install this project by following the step below
