@@ -56,7 +56,7 @@ router.get('/downloads/spotify', async (req, res, next) => {
     let hasil = await spotify(url)
     res.json(PromiseRes(hasil)).status(200)
   } catch (err) {
-    res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
+    res.status(500).json({ developer: develop, mess: `${err.message}. Report this error to Developer(Xorizn)` })
   }
 })
 router.get('/downloads/facebook', async (req, res, next) => {
