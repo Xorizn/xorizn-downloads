@@ -17,7 +17,7 @@ const isUrl = (url) => {
   };
 };
 
-const { FaceBook, Instagram, MediaFire, MusiCally, PinterestVideo, SoundCloude, TikTok, TwiTter, YoutubeSl } = require('../lib/downloads')
+const { FaceBook, Instagram, MediaFire, MusiCally, PinterestVideo, SoundCloude, TikTok, TwiTter, YoutubeSl, spotify } = require('../lib/downloads')
 
 //function
 const mess = {
@@ -34,7 +34,7 @@ const PromiseRes = (hasil) => {
   return { developer: develop, status: 200, result: hasil }
 }
 
-//==================================Downloads==================================\\
+//==================================Downloads==================================\\spotify
 router.get('/downloads/instagram', async (req, res, next) => {
   try {
     const url = req.query.url;
@@ -42,6 +42,18 @@ router.get('/downloads/instagram', async (req, res, next) => {
     if (!isUrl(url)) return res.json(mess.is_url);
     if (!url.includes('instagram')) return res.json({ developer: develop, mess: `${url} is not instagram url` });
     let hasil = await Instagram(url)
+    res.json(PromiseRes(hasil)).status(200)
+  } catch (err) {
+    res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
+  }
+})
+router.get('/downloads/spotify', async (req, res, next) => {
+  try {
+    const url = req.query.url;
+    if (!url) return res.json(mess.null_url);
+    if (!isUrl(url)) return res.json(mess.is_url);
+    if (!url.includes('spotify')) return res.json({ developer: develop, mess: `${url} is not spotify url` });
+    let hasil = await spotify(url)
     res.json(PromiseRes(hasil)).status(200)
   } catch (err) {
     res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
