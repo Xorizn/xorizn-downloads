@@ -54,7 +54,7 @@ router.get('/downloads/spotify', async (req, res, next) => {
     if (!isUrl(url)) return res.json(mess.is_url);
     if (!url.includes('spotify')) return res.json({ developer: develop, mess: `${url} is not spotify url` });
     
-    let hasil = await spotify(url, "13f9c7b628e4fb04b33de253c317001a")
+    let hasil = await spotify(url)
     res.json(PromiseRes(hasil)).status(200)
   } catch (err) {
     res.status(500).json({ developer: develop, mess: `${err.toString()}. Report this error to Developer(Xorizn)` })
